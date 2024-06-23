@@ -2724,7 +2724,7 @@ body._lock {
     position: absolute;
     left: 2px;
     /* bottom: 125px; */
-    top: -100px;
+    top: -100vh;
     z-index: 5;
   }
 
@@ -2732,7 +2732,7 @@ body._lock {
     content: url('../img/header/mobile-header-right-icon.svg');
     position: absolute;
     right: 20px;
-    top: -100px;
+    top: -100vh;
     /* bottom: 45px; */
   }
 
@@ -2769,7 +2769,7 @@ body._lock {
   .header__box-work {
     position: fixed;
     z-index: 6;
-    bottom: 100vh;
+    bottom: 150vh;
     font-family: Nunito;
     font-size: 12px;
     line-height: 16.37px;
@@ -2782,7 +2782,7 @@ body._lock {
   }
 
   #header-box-work-2 {
-    bottom: 100vh;
+    bottom: 150vh;
   }
 
   .header__time-work {
@@ -2798,7 +2798,7 @@ body._lock {
     flex-direction: column-reverse;
     justify-content: center;
     gap: 20px;
-    bottom: 100vh;
+    bottom: 150vh;
     transition: 0.3s ease all;
   }
 
@@ -2823,5 +2823,19 @@ body._lock {
 
   .header__top._active .header__actions{
     bottom: 10px;
+  }
+}
+
+@media (max-width:1170px) and (min-width: 992px) {
+  .header._active {
+    top: -128px;
+  }
+}
+
+@media (max-height:590px) {
+  .menu__list {
+    max-height: 223px;
+    overflow: scroll;
+    flex-wrap: nowrap;
   }
 }
