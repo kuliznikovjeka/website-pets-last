@@ -15,7 +15,7 @@ function handleIconMenuClick() {
 }
 
 function handleCloseMenu() {
-  ocument.body.classList.remove("_lock");
+  document.body.classList.remove("_lock");
   menuBody.classList.remove("_active");
   iconMenu.classList.remove("_active");
   headerTop.classList.remove("_active");
@@ -39,6 +39,7 @@ headerLinks.forEach((link) => {
     const offsetPosition = elementPosition - topOffset;
 
     if (iconMenu.classList.contains("_active")) {
+      console.log("click");
       handleCloseMenu();
     }
 

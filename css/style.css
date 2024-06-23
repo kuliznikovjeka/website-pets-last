@@ -2660,28 +2660,9 @@ body._lock {
 
 .item-services {
   padding: 14px;
-  height: 500px;
-  overflow-y: auto;
+  height: 400px;
   position: relative;
   cursor: pointer;
-}
-
-@media (max-width: 1300px) {
-  .item-services {
-    height: 550px;
-  }
-}
-
-@media (max-width: 480px) {
-  .item-services {
-    height: 510px;
-  }
-}
-
-@media (max-width: 380px) {
-  .item-services {
-    height: 550px;
-  }
 }
 
 .item-services__front {
@@ -2719,7 +2700,7 @@ body._lock {
 
 .item-services__img {
   border: 1px solid #000;
-  max-width: 300px;
+  max-width: 220px;
 }
 
 .item-services__img:not(:last-child) {
@@ -2727,7 +2708,7 @@ body._lock {
 }
 
 .item-services__img img {
-  max-width: 300px;
+  max-width: 220px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -2797,6 +2778,23 @@ body._lock {
           flex: 1 1 100%;
   line-height: 130%;
   font-size: 16px;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.item-services__description::-webkit-scrollbar {
+  width: 5px;
+}
+
+.item-services__description::-webkit-scrollbar-thumb {
+  background-color: #ee741d;
+  border-radius: 100px;
+}
+
+.item-services__description::-webkit-scrollbar-track {
+  background-color: #000;
+  border: 4px solid #000;
+  border-radius: 100px;
 }
 
 .item-services__description:not(:last-child) {
@@ -2807,6 +2805,27 @@ body._lock {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.item-services__list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.item-services__list::-webkit-scrollbar-thumb {
+  background-color: #ee741d;
+  border-radius: 100px;
+}
+
+.item-services__list::-webkit-scrollbar-track {
+  background-color: #000;
+  border: 4px solid #000;
+  border-radius: 100px;
+}
+
+.item-services__list:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .item-services__list:not(:last-child) {
@@ -2842,6 +2861,11 @@ body._lock {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.item-services__button {
+  font-size: 18px;
+  padding: 14px 36px;
 }
 
 .item-services:hover .item-services__back {
