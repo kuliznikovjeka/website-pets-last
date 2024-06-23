@@ -1,0 +1,312 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	transition: background-color 0.3s ease 0s;
+
+	&._active {
+		// background-color: red;
+	}
+
+	// .header__container
+
+	&__container {
+	}
+
+	// .header__top
+
+	&__top-row {
+		padding: 15px 0px;
+	}
+
+	// .header__top
+
+	&__top {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 20px;
+		padding-top: 15px;
+
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+
+		@media (max-width: 1170px) {
+			justify-content: baseline;
+		}
+	}
+
+	// .header__logo
+
+	&__logo {
+	}
+
+	// .header__box-work
+
+	&__box-work {
+		text-align: center;
+
+		@media (max-width: 860px) {
+			margin-bottom: 30px;
+		}
+	}
+
+	// .header__adress
+
+	&__adress {
+		&:not(:last-child) {
+			margin-bottom: 5px;
+		}
+	}
+
+	// .header__time-work
+
+	&__time-work {
+		display: flex;
+		align-items: center;
+		column-gap: 5px;
+	}
+
+	// .header__clock
+
+	&__clock {
+		height: 16px;
+		width: 16px;
+	}
+
+	// .header__time
+
+	&__time {
+	}
+
+	// .header__tel
+
+	&__actions {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+
+		@media (max-width: 1170px) {
+			flex-grow: 1;
+			justify-content: flex-end;
+		}
+	}
+
+	// .header__tel
+
+	&__tel {
+		color: $black-color;
+	}
+
+	// .header__socials
+
+	&__socials {
+		display: flex;
+		gap: 8px;
+	}
+
+	// .header__social
+
+	&__social {
+	}
+
+	// .header__close-menu
+
+	&__close-menu {
+		@media (min-width: 993px) {
+			display: none;
+		}
+	}
+
+	// .header__bottom-row
+	&__bottom-row {
+		background-color: $white-color;
+		padding: 20px 0px;
+	}
+
+	// .header__bottomF
+
+	&__bottom {
+	}
+
+	// .header__menu
+
+	&__menu {
+	}
+}
+
+.logo {
+	// .logo__link
+
+	&__link {
+	}
+
+	// .logo__img
+
+	&__img {
+		img {
+			object-fit: cover;
+			max-width: 100%;
+		}
+	}
+}
+
+.icon-menu {
+	display: none;
+	@media (max-width: 992px) {
+		background: transparent;
+		padding: 8px;
+		display: block;
+		position: relative;
+		width: 20px;
+		flex: 0 0 20px;
+		height: 14px;
+		z-index: 5;
+		cursor: pointer;
+		span,
+		&::before,
+		&::after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			right: 0;
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			border-radius: 3px;
+			background-color: $black-color;
+		}
+		&::before {
+			top: 0;
+		}
+		&::after {
+			bottom: 0;
+		}
+		span {
+			top: 45%;
+		}
+		&._active {
+			span {
+				opacity: 0;
+			}
+			&::before {
+				top: calc(50%);
+				transform: rotate(-45deg);
+			}
+			&::after {
+				bottom: calc(50% - 2px);
+				transform: rotate(45deg);
+			}
+		}
+	}
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	gap: 15px;
+	// .menu__body
+
+	&__body {
+		@media (max-width: 992px) {
+			z-index: 2;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: -100%;
+			left: 0;
+			background: $white-color;
+			padding: 80px 30px 30px 30px;
+			transition: top 0.3s ease 0s;
+			overflow: auto;
+			&::before {
+				content: "";
+				z-index: 2;
+				position: fixed;
+				width: 100%;
+				top: -100%;
+				left: 0;
+				height: 80px;
+				background: $bg-white-color;
+				z-index: 2;
+				transition: top 0.3s ease 0s;
+				@media (max-width: 380px) {
+					height: 90px;
+				}
+			}
+			&._active {
+				top: 0;
+				&::before {
+					content: "";
+					top: 0;
+				}
+			}
+		}
+	}
+
+	// .menu__list
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px 50px;
+
+		@media (max-width: 1080px) {
+			gap: 15px 30px;
+		}
+
+		@media (max-width: 992px) {
+			display: block;
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	// .menu__item
+
+	&__item {
+		@media (max-width: 992px) {
+			border-bottom: 1px solid $grey-color;
+			padding: 15px 0px;
+		}
+	}
+
+	// .menu__link
+
+	&__link {
+		color: $black-color;
+	}
+
+	// .menu__button
+
+	&__button {
+		display: inline-block;
+		background-color: $bg-white-color;
+
+		&_pc {
+			@media (max-width: 992px) {
+				visibility: hidden;
+				display: none;
+				opacity: 0;
+			}
+		}
+
+		&_mobile {
+			@media (min-width: 993px) {
+				visibility: hidden;
+				display: none;
+				opacity: 0;
+			}
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+}

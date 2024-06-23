@@ -1,0 +1,171 @@
+.hero {
+	padding: 150px 0px 100px 0px;
+
+	@media (max-width: 992px) {
+		// padding: 50px 0px;
+	}
+
+	@media (max-width: 480px) {
+		// padding: 30px 0px;
+	}
+
+	// .hero__container
+
+	&__container {
+		position: relative;
+
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			z-index: -1;
+			width: 257px;
+			height: 384px;
+			bottom: -5%;
+			left: -15%;
+			background: url("../img/hero/big-decor.svg") 0 0 / 100% 100% no-repeat;
+			background-size: cover;
+
+			@media (max-width: 1600px) {
+				width: 227px;
+				height: 340px;
+				bottom: -2%;
+				left: -10%;
+			}
+
+			@media (max-width: 1400px) {
+				width: 187px;
+				height: 200px;
+				bottom: -7%;
+				left: 30%;
+			}
+
+			@media (max-width: 1200px) {
+				width: 150px;
+				height: 170px;
+				bottom: -7%;
+				left: 40%;
+			}
+
+			@media (max-width: 992px) {
+				width: 120px;
+				height: 140px;
+				left: 75%;
+			}
+
+			@media (max-width: 480px) {
+				width: 100px;
+				height: 120px;
+				left: 65%;
+			}
+		}
+	}
+
+	// .hero__wpapper-slider
+
+	&__wpapper-slider {
+	}
+
+	// .hero__slider
+
+	&__slider {
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+
+	// .hero__body
+
+	&__body {
+		max-width: 600px;
+
+		@media (max-width: 1080px) {
+			max-width: 500px;
+		}
+
+		@media (max-width: 992px) {
+			max-width: none;
+			text-align: center;
+		}
+	}
+
+	// .hero__title
+
+	&__title {
+		font-family: "Nunito", sans-serif;
+		font-size: 52px;
+		font-weight: 900;
+		line-height: 135%;
+		color: $brown-color;
+
+		&:not(:last-child) {
+			margin-bottom: 50px;
+		}
+
+		@media (max-width: 992px) {
+			font-size: 42px;
+		}
+		@media (max-width: 550px) {
+			font-size: 36px;
+		}
+	}
+
+	// .hero__button
+
+	&__button {
+		// .hero__button_prev
+
+		&_prev {
+			background: transparent;
+		}
+
+		// .hero__button_next
+
+		&_next {
+			background: transparent;
+		}
+	}
+
+	// .hero__img
+
+	&__img {
+		img {
+			max-width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	// .hero__buttons
+
+	&__buttons {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 30px;
+
+		@media (max-width: 992px) {
+			justify-content: center;
+		}
+	}
+}
+.slider-hero {
+	// .slider-hero__wrapper
+
+	&__wrapper {
+	}
+
+	// .slider-hero__slide
+
+	&__slide {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 30px;
+		cursor: grab;
+
+		@media (max-width: 992px) {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}

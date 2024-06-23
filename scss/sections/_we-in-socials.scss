@@ -1,0 +1,99 @@
+.we-in-socials {
+	padding: 100px 0px;
+	background-color: $yellow-bg-color;
+
+	@media (max-width: 992px) {
+		padding: 50px 0px;
+	}
+
+	@media (max-width: 480px) {
+		padding: 30px 0px 50px 0px;
+	}
+
+	// .we-in-socials__container
+
+	&__container {
+	}
+
+	// .we-in-socials__title
+
+	&__title {
+	}
+
+	// .we-in-socials__row
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 30px 80px;
+
+		@media (max-width: 992px) {
+			flex-wrap: nowrap;
+			gap: 20px;
+		}
+	}
+
+	// .we-in-socials__item
+
+	&__item {
+		display: flex;
+		align-items: center;
+		column-gap: 40px;
+
+		@media (max-width: 992px) {
+			flex-direction: column;
+			gap: 20px;
+		}
+	}
+
+	// .we-in-socials__img
+
+	&__img {
+		height: 120px;
+		img {
+			max-width: 100%;
+			object-fit: cover;
+		}
+
+		@media (max-width: 480px) {
+			max-width: 100px;
+		}
+	}
+
+	// .we-in-socials__body
+
+	&__body {
+		text-align: center;
+	}
+
+	// .we-in-socials__subscribers
+
+	&__subscribers {
+		display: block;
+		font-weight: 500;
+
+		&:not(:last-child) {
+			margin-bottom: 40px;
+		}
+
+		@media (max-width: 425px) {
+			font-size: 16px;
+		}
+	}
+
+	// .we-in-socials__button
+
+	&__button {
+		padding: 8px 52px;
+
+		@media (max-width: 480px) {
+			padding: 8px 36px;
+		}
+
+		@media (max-width: 425px) {
+			padding: 8px 12px;
+			font-size: 16px;
+		}
+	}
+}

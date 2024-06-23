@@ -1,0 +1,2305 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ТОМВЕТ ветеренарная клиника</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__top">
+            <div class="header__logo logo">
+              <a href="#hero" class="logo__link">
+                <div class="logo__img">
+                  <img
+                    src="./img/header/logo.png"
+                    alt="Логотип компании ТОМВЕТ"
+                  />
+                </div>
+              </a>
+            </div>
+            <div id="header-box-work-1" class="header__box-work">
+              <p class="header__adress">г. Томск, ул. Мокрушина 1Б</p>
+              <div class="header__time-work">
+                <img
+                  src="./img/icons/clock.svg"
+                  alt="Иконка часов"
+                  class="header__clock"
+                />
+                <p class="header__time">пн-вс: с 8:00 до 24:00</p>
+              </div>
+            </div>
+            <div id="header-box-work-2" class="header__box-work">
+              <p class="header__adress">г. Томск, пер. Совпартшкольный 10А</p>
+              <div class="header__time-work">
+                <img
+                  src="./img/icons/clock.svg"
+                  alt="Иконка часов"
+                  class="header__clock"
+                />
+                <p class="header__time">пн-вс: с 10:00 до 20:00</p>
+              </div>
+            </div>
+            <div class="header__actions">
+              <a href="tel:+73822900333" class="header__tel tel"
+                >+7 (3822) 900-333</a
+              >
+              <div class="header__socials">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=79609715141&text&type=phone_number&app_absent=0"
+                  class="header__social"
+                >
+                  <img src="./img/icons/whats-up.svg" alt="Вотсап" />
+                </a>
+                <a href="https://t.me/tomvet_tom" class="header__social">
+                  <img src="./img/icons/tg.svg" alt="Телеграм" />
+                </a>
+                <a href="https://vk.com/tomvet" class="header__social">
+                  <img src="./img/icons/vk.svg" alt="ВКонтакте" />
+                </a>
+              </div>
+            </div>
+            <div class="header__close-menu">
+              <button type="button" class="icon-menu"><span></span></button>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <div class="header__menu menu">
+              <nav id="menu-body" class="menu__body">
+                <button
+                  data-popap-path="reception"
+                  id="menu-button"
+                  class="menu__button menu__button_mobile button-main"
+                >
+                  Заказать звонок
+                </button>
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="#hero" class="menu__link">Главная</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#about-clinic" class="menu__link">О клинике</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#advantages" class="menu__link">Почему мы?</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#services" class="menu__link">Услуги</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#doctors" class="menu__link">Специалисты</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#socials" class="menu__link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <button
+                id="menu-button"
+                class="menu__button menu__button_pc button-main"
+                data-popap-path="reception"
+              >
+                Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section id="hero" class="hero">
+          <div class="hero__container">
+            <div class="hero__slider slider-hero swiper">
+              <div class="swiper-wrapper slider-hero__wrapper">
+                <div class="swiper-slide slider-hero__slide">
+                  <div class="hero__body">
+                    <h2 class="hero__title">
+                      Помогаем Вам решать вопросы здоровья Ваших питомцев!
+                    </h2>
+                    <button
+                      class="hero__button button-main button-main_yellow"
+                      data-popap-path="reception"
+                    >
+                      Записаться на прием
+                    </button>
+                  </div>
+                  <div class="hero__img">
+                    <img src="./img/hero/01.png" alt="Ветеренары" />
+                  </div>
+                </div>
+                <div class="swiper-slide slider-hero__slide">
+                  <div class="hero__body">
+                    <h2 class="hero__title">
+                      Ищем причину. Помогаем лечением!
+                    </h2>
+                    <button
+                      class="hero__button button-main button-main_yellow"
+                      data-popap-path="reception"
+                    >
+                      Записаться на прием
+                    </button>
+                  </div>
+                  <div class="hero__img">
+                    <img src="./img/hero/02.png" alt="Ветеренары" />
+                  </div>
+                </div>
+                <div class="swiper-slide slider-hero__slide">
+                  <div class="hero__body">
+                    <h2 class="hero__title">
+                      Заботливая команда профессионалов
+                    </h2>
+                    <button
+                      class="hero__button button-main button-main_yellow"
+                      data-popap-path="reception"
+                    >
+                      Записаться на прием
+                    </button>
+                  </div>
+                  <div class="hero__img">
+                    <img src="./img/hero/03.png" alt="Ветеренары" />
+                  </div>
+                </div>
+                <div class="swiper-slide slider-hero__slide">
+                  <div class="hero__body">
+                    <h2 class="hero__title">
+                      Все, что необходимо для лечения питомца!
+                    </h2>
+                    <button
+                      class="hero__button button-main button-main_yellow"
+                      data-popap-path="reception"
+                    >
+                      Записаться на прием
+                    </button>
+                  </div>
+                  <div class="hero__img">
+                    <img src="./img/hero/04.png" alt="Ветеренары" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero__buttons">
+              <button class="hero__button hero__button_prev">
+                <img src="./img/icons/left-arr.svg" alt="Кнопка назад" />
+              </button>
+              <button class="hero__button hero__button_next">
+                <img src="./img/icons/right-arr.svg" alt="Кнопка вперёд" />
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="about-clinic" class="about-clinic">
+          <div class="about-clinic__container">
+            <div class="about-clinic__image-box">
+              <div class="about-clinic__swiper swiper clinic-about-slider">
+                <div class="clinic-about-slider__wrapper swiper-wrapper">
+                  <div class="clinic-about-slider__slide swiper-slide">
+                    <div class="clinic-about-slider__img">
+                      <img src="./img/about-clinic/01.png" alt="Ветеренары" />
+                    </div>
+                  </div>
+                  <div class="clinic-about-slider__slide swiper-slide">
+                    <div class="clinic-about-slider__img">
+                      <img src="./img/about-clinic/02.png" alt="Ветеренары" />
+                    </div>
+                  </div>
+                  <div class="clinic-about-slider__slide swiper-slide">
+                    <div class="clinic-about-slider__img">
+                      <img src="./img/about-clinic/03.png" alt="Ветеренары" />
+                    </div>
+                  </div>
+                  <div class="clinic-about-slider__slide swiper-slide">
+                    <div class="clinic-about-slider__img">
+                      <img src="./img/about-clinic/04.png" alt="Ветеренары" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-clinic__buttons">
+                <button class="about-clinic__button about-clinic__button_prev">
+                  <img src="./img/icons/left-arr.svg" alt="Кнопка назад" />
+                </button>
+                <button class="about-clinic__button about-clinic__button_next">
+                  <img src="./img/icons/right-arr.svg" alt="Кнопка вперёд" />
+                </button>
+              </div>
+            </div>
+            <div class="about-clinic__body">
+              <h2 class="about-clinic__title title">О клинике</h2>
+              <p class="about-clinic__description">
+                Нашей клинике более 20 лет. Мы работаем в сфере лечения мелких
+                домашних животных: собак, кошек, экзотических животных/грызунов
+                и птиц. Мы предоставляем полный спектр ветеринарных услуг: от
+                простой консультации по вопросам питания до лечения критически
+                больного пациента. <br />
+                Наши специалисты работают в интересах ваших животных и постоянно
+                совершенствуют свои навыки. Мы любим свою работу!
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="advantages" class="advantages">
+          <div class="advantages__container">
+            <div class="advantages__row">
+              <div class="advantages__item">
+                <div class="advantages__img">
+                  <img src="./img/advantages/01.svg" alt="Иконка 15 минут" />
+                </div>
+                <p class="advantages__description">
+                  Лабораторная диагностика в течение 15 минут 
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__img">
+                  <img src="./img/advantages/02.svg" alt="Иконка врача" />
+                </div>
+                <p class="advantages__description">
+                  Команда профессиональных врачей
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__img">
+                  <img src="./img/advantages/03.svg" alt="Иконка животного" />
+                </div>
+                <p class="advantages__description">
+                  Уход за операционными животными до полного выхода из наркоза
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__img">
+                  <img
+                    src="./img/advantages/04.svg"
+                    alt="Иконка ветеренарной клиники"
+                  />
+                </div>
+                <p class="advantages__description">
+                  Лечение в условиях стационара
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__img">
+                  <img
+                    src="./img/advantages/05.svg"
+                    alt="Иконка современного оборудования"
+                  />
+                </div>
+                <p class="advantages__description">
+                  Современное оборудование экспертного класса
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__img">
+                  <img
+                    src="./img/advantages/06.svg"
+                    alt="Иконка современного таблеток"
+                  />
+                </div>
+                <p class="advantages__description">
+                  Ветеринарная аптека при клинике
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="services">
+          <div class="services__container">
+            <h2 class="services__title title">Наши услуги</h2>
+            <div class="services__wrapper-slider">
+              <div class="services__swiper swiper">
+                <div class="services__swiper-wraper swiper-wrapper">
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/01.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">Прием врача</h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            Приём ветеринарного врача в клинике ТомВет включает:
+                          </p>
+                          <ul class="item-services__list">
+                            <li class="item-services__li-element">
+                              Осмотр животного
+                            </li>
+                            <li class="item-services__li-element">
+                              Постановка предварительного и дифференциальных
+                              диагнозов
+                            </li>
+                            <li class="item-services__li-element">
+                              Разработка тактики дальнейшей диагностики/
+                              лечения/профилактики заболевания животного 
+                            </li>
+                          </ul>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/02.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">Вакцинация</h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            Вакцинация в клинике ТомВет включает:
+                          </p>
+                          <ul class="item-services__list">
+                            <li class="item-services__li-element">
+                              Осмотр животного
+                            </li>
+                            <li class="item-services__li-element">
+                              Оформление паспорта
+                            </li>
+                            <li class="item-services__li-element">
+                              Регистрация животного
+                            </li>
+                            <li class="item-services__li-element">
+                              Внесение в журнал учета вакцинации против
+                              бешенства
+                            </li>
+                            <li class="item-services__li-element">
+                              Введение вакцины
+                            </li>
+                            <li class="item-services__li-element">
+                              Расходные материалы
+                            </li>
+                          </ul>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/03.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">
+                          Электронное чипирование
+                        </h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            Электронное чипирование в клинике ТомВет включает:
+                          </p>
+                          <ul class="item-services__list">
+                            <li class="item-services__li-element">
+                              Подкожное введение микрочипа (стоимость микрочипа
+                              включена)
+                            </li>
+                            <li class="item-services__li-element">
+                              Занесение данных в компьютерную базу и
+                              ветеринарный паспорт
+                            </li>
+                          </ul>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/04.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">Хирургия</h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            Выполняемые виды оперативных вмешательств:
+                          </p>
+                          <ul class="item-services__list">
+                            <li class="item-services__li-element">
+                              Опухоли молочной железы, операции при
+                              новообразованиях на органах брюшной полости и
+                              малого таза.
+                            </li>
+                            <li class="item-services__li-element">
+                              Операции в брюшной полости, в полости малого таза,
+                              в том числе кастрации
+                            </li>
+                            <li class="item-services__li-element">
+                              Пластика ноздрей и небной занавески, пересадка
+                              кожи.
+                            </li>
+                          </ul>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/05.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">
+                          Лабораторная диагностика
+                        </h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            Лабораторная диагностика в клинике ТотВет:
+                          </p>
+                          <p class="item-services__description">
+                            Лабораторные исследования дают ветеринарному врачу
+                            ценнейшую информацию о состоянии здоровья животного.
+                            Без этих сведений невозможно поставить точный
+                            диагноз и назначить правильное лечение. Время
+                            анализа с момента забора крови у животного до
+                            распечатки результатов составляет 15-20 минут.
+                          </p>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/07.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">Прием кардиолога</h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            Приём кардиолога в клинике ТомВет:
+                          </p>
+                          <p class="item-services__description">
+                            Мы используем в работе рентгенографию органов
+                            грудной клетки, эхокардиографию, измерение
+                            артериального давления, лабораторные исследования
+                            (биохимия и общий анализ крови). Прием ведет
+                            врач-кардиолог Артёменко Елизавета Викторовна.
+                          </p>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/08.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">Рентген</h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            Рентген в клинике ТомВет:
+                          </p>
+                          <p class="item-services__description">
+                            Рентгеновское исследование — базовый диагностический
+                            метод. Мы делаем рентген для выявления множества
+                            различных заболеваний у животных.
+                          </p>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services__slide swiper-slide">
+                    <div class="services__item item-services">
+                      <div class="item-services__front">
+                        <div class="item-services__img">
+                          <img src="./img/services/09.jpg" alt="Ветеренар" />
+                        </div>
+                        <h3 class="item-services__title">УЗИ</h3>
+                      </div>
+                      <div class="item-services__back-wrap">
+                        <div class="item-services__back">
+                          <p class="item-services__text">
+                            УЗИ в клинике ТомВет:
+                          </p>
+                          <p class="item-services__description">
+                            Ультразвуковая диагностика – точный и безболезненный
+                            способ для обследования внутренних органов и при
+                            подозрении на сердечные заболевания. В нашей клинике
+                            вы имеете возможность пройти обследование на
+                            современном оборудовании экспертного класса, что
+                            позволяет провести диагностику даже труднодоступных
+                            органов.
+                          </p>
+                          <div class="item-services__wrap-button">
+                            <button
+                              class="item-services__button button-main button-main_yellow"
+                              data-popap-path="reception"
+                            >
+                              Записаться
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="services__buttons">
+                <button class="services__button services__button_prev">
+                  <img src="./img/icons/left-arr.svg" alt="Кнопка назад" />
+                </button>
+                <button class="services__button services__button_next">
+                  <img src="./img/icons/right-arr.svg" alt="Кнопка вперёд" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="doctors" class="doctors">
+          <div class="doctors__container">
+            <div class="doctors__title title">
+              Ваш питомец в надёжных руках!
+            </div>
+            <div class="doctors__pc-row">
+              <div class="doctors__scroll-block scroll-block-doctors">
+                <div class="scroll-block-doctors__tabs">
+                  <button
+                    class="scroll-block-doctors__tab-btn scroll-block-doctors__tab-btn_active"
+                    data-tabs-path="ivashutin"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Ивашутин Илья Максимович
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Старший врач, хирург
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/01.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="arteminko"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Артёменко Елизавета Викторовна
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Терапевт, УЗ-диагност, кардиолог
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/02.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="merker"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Меркер Артём Анатольевич
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Терапевт, УЗ-диагност, невролог
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/03.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="kopitina"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Копытина Мария Владимировна
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Терапевт, УЗ-диагност
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/04.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="morozova"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Морозова Ирина Григорьевна
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ветеринарный врач, дерматолог, специалист по птицам и
+                          грызунам
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/05.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="ivanova"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Иванова Полина Александровна
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ветеринарный врач-ординатор, УЗ-диагност, анестезиолог
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/06.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="kitchenko"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Китченко Евгений Михайлович
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ветеринарный врач-ординатор, рентген-диагност
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/07.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="melnikova"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Мельникова Екатерина
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Старший ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/08.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="kruchkova"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Крючкова Екатерина
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/09.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="shipacheva"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Шипачева Анастасия
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/10.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="chasovskix"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Часовских Анастасия
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/11.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="zavarzina"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Заварзина Нина
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/12.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="nevdax"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">Невдах Мария</h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/13.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="borisova"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Борисова Светлана
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Старший администратор клиники
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/14.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="bodrenina"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Бодренина Ксения
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Администратор клиники
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/15.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="gabrusons"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Габрусонс Ольга
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Администратор клиники
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/16.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="kvadaras"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Квядарас Светлана
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Администратор клиники
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/17.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="urmazova"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Юрмазова Виктория
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/18.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="safronova"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Сафронова Дарья
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/19.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="scroll-block-doctors__tab-btn"
+                    data-tabs-path="golumbevskaya"
+                  >
+                    <div class="scroll-block-doctors__item">
+                      <div class="scroll-block-doctors__initials">
+                        <h4 class="scroll-block-doctors__name">
+                          Голумбевская Карина
+                        </h4>
+                        <p class="scroll-block-doctors__descr">
+                          Администратор клиники
+                        </p>
+                      </div>
+                      <div class="scroll-block-doctors__avatar">
+                        <img src="./img/doctors/20.png" alt="Ветеренар" />
+                      </div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="doctors__pc-content">
+                <div
+                  class="doctors__item doctors__item_active item-doctors"
+                  data-tabs-target="ivashutin"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/01.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">
+                    Ивашутин Илья Максимович
+                  </h4>
+                  <p class="item-doctors__descr">
+                    Старший ветеринарный врач, хирург, рентген-диагност,
+                    хирург-онколог
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="arteminko"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/02.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">
+                    Артёменко Елизавета Викторовна
+                  </h4>
+                  <p class="item-doctors__descr">
+                    Терапевт, УЗ-диагност, кардиолог
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="merker"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/03.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">
+                    Меркер Артём Анатольевич
+                  </h4>
+                  <p class="item-doctors__descr">
+                    Терапевт, УЗ-диагност, невролог
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="kopitina"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/04.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">
+                    Копытина Мария Владимировна
+                  </h4>
+                  <p class="item-doctors__descr">Терапевт, УЗ-диагност</p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="morozova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/05.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">
+                    Морозова Ирина Григорьевна
+                  </h4>
+                  <p class="item-doctors__descr">
+                    Ветеринарный врач, дерматолог, специалист по птицам и
+                    грызунам
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="ivanova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/06.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">
+                    Иванова Полина Александровна
+                  </h4>
+                  <p class="item-doctors__descr">
+                    Ветеринарный врач-ординатор, УЗ-диагност, анестезиолог
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="kitchenko"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/07.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">
+                    Китченко Евгений Михайлович
+                  </h4>
+                  <p class="item-doctors__descr">
+                    Ветеринарный врач-ординатор, рентген-диагност
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="melnikova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/08.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Мельникова Екатерина</h4>
+                  <p class="item-doctors__descr">
+                    Старший ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="melnikova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/08.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Мельникова Екатерина</h4>
+                  <p class="item-doctors__descr">
+                    Старший ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="kruchkova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/09.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Крючкова Екатерина</h4>
+                  <p class="item-doctors__descr">
+                    Ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="shipacheva"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/10.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Шипачева Анастасия</h4>
+                  <p class="item-doctors__descr">
+                    Ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="chasovskix"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/11.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Часовских Анастасия</h4>
+                  <p class="item-doctors__descr">
+                    Ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="zavarzina"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/12.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Заварзина Нина</h4>
+                  <p class="item-doctors__descr">
+                    Ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="nevdax"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/13.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Невдах Мария</h4>
+                  <p class="item-doctors__descr">
+                    Ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="borisova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/14.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Борисова Светлана</h4>
+                  <p class="item-doctors__descr">
+                    Старший администратор клиники
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="bodrenina"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/15.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Бодренина Ксения</h4>
+                  <p class="item-doctors__descr">Администратор клиники</p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="gabrusons"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/16.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Габрусонс Ольга</h4>
+                  <p class="item-doctors__descr">Администратор клиники</p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="kvadaras"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/17.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Квядарас Светлана</h4>
+                  <p class="item-doctors__descr">Администратор клиники</p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="urmazova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/18.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Юрмазова Виктория</h4>
+                  <p class="item-doctors__descr">
+                    Ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="safronova"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/19.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Сафронова Дарья</h4>
+                  <p class="item-doctors__descr">
+                    Ассистент ветеринарного врача
+                  </p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+
+                <div
+                  class="doctors__item item-doctors"
+                  data-tabs-target="golumbevskaya"
+                >
+                  <div class="item-doctors__img">
+                    <img src="./img/doctors/20.png" alt="Ветеренар" />
+                  </div>
+                  <h4 class="item-doctors__title-name">Голумбевская Карина</h4>
+                  <p class="item-doctors__descr">Администратор клиники</p>
+                  <button
+                    class="item-doctors__button button-main button-main_yellow"
+                    data-popap-path="reception"
+                  >
+                    Записаться на приём
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="doctors__slider-content">
+              <div class="doctors__mobile-slider">
+                <div class="doctors__swiper swiper">
+                  <div class="doctors__swiper-wrapper swiper-wrapper">
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item doctors__item_active item-doctors"
+                        data-tabs-target="ivashutin"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/01.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Ивашутин Илья Максимович
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Старший ветеринарный врач, хирург, рентген-диагност,
+                          хирург-онколог
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="arteminko"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/02.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Артёменко Елизавета Викторовна
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Терапевт, УЗ-диагност, кардиолог
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="merker"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/03.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Меркер Артём Анатольевич
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Терапевт, УЗ-диагност, невролог
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="kopitina"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/04.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Копытина Мария Владимировна
+                        </h4>
+                        <p class="item-doctors__descr">Терапевт, УЗ-диагност</p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="morozova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/05.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Морозова Ирина Григорьевна
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ветеринарный врач, дерматолог, специалист по птицам и
+                          грызунам
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="ivanova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/06.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Иванова Полина Александровна
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ветеринарный врач-ординатор, УЗ-диагност, анестезиолог
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="kitchenko"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/07.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Китченко Евгений Михайлович
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ветеринарный врач-ординатор, рентген-диагност
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="melnikova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/08.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Мельникова Екатерина
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Старший ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="melnikova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/08.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Мельникова Екатерина
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Старший ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="chasovskix"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/11.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Часовских Анастасия
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="kruchkova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/09.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Крючкова Екатерина
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="shipacheva"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/10.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Шипачева Анастасия
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="zavarzina"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/12.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">Заварзина Нина</h4>
+                        <p class="item-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="nevdax"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/13.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">Невдах Мария</h4>
+                        <p class="item-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="borisova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/14.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Борисова Светлана
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Старший администратор клиники
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="bodrenina"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/15.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Бодренина Ксения
+                        </h4>
+                        <p class="item-doctors__descr">Администратор клиники</p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="gabrusons"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/16.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Габрусонс Ольга
+                        </h4>
+                        <p class="item-doctors__descr">Администратор клиники</p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="kvadaras"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/17.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Квядарас Светлана
+                        </h4>
+                        <p class="item-doctors__descr">Администратор клиники</p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="urmazova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/18.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Юрмазова Виктория
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="safronova"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/19.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Сафронова Дарья
+                        </h4>
+                        <p class="item-doctors__descr">
+                          Ассистент ветеринарного врача
+                        </p>
+                      </div>
+                    </div>
+                    <div class="doctors__swiper-slide swiper-slide">
+                      <div
+                        class="doctors__item item-doctors"
+                        data-tabs-target="golumbevskaya"
+                      >
+                        <div class="item-doctors__img">
+                          <img src="./img/doctors/20.png" alt="Ветеренар" />
+                        </div>
+                        <h4 class="item-doctors__title-name">
+                          Голумбевская Карина
+                        </h4>
+                        <p class="item-doctors__descr">Администратор клиники</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="doctors__buttons">
+                <button class="doctors__button doctors__button_prev">
+                  <img src="./img/icons/left-arr.svg" alt="Кнопка назад" />
+                </button>
+                <button class="doctors__button doctors__button_next">
+                  <img src="./img/icons/right-arr.svg" alt="Кнопка вперёд" />
+                </button>
+              </div>
+
+              <div class="doctors__button-wrap">
+                <button
+                  data-popap-path="reception"
+                  class="doctors__button button-main button-main_yellow"
+                >
+                  Записаться на приём
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="socials" class="we-in-socials">
+          <div class="we-in-socials__container">
+            <h2 class="we-in-socials__title title">Мы в соцсетях</h2>
+            <div class="we-in-socials__row">
+              <div class="we-in-socials__item">
+                <div class="we-in-socials__img">
+                  <img src="./img/we-in-socials/vk.png" alt="vk" />
+                </div>
+                <div class="we-in-socials__body">
+                  <span class="we-in-socials__subscribers"
+                    >1600 подписчиков</span
+                  >
+                  <a
+                    href="https://vk.com/tomvet"
+                    class="we-in-socials__button button-main button-main_white"
+                    >Подписаться</a
+                  >
+                </div>
+              </div>
+              <div class="we-in-socials__item">
+                <div class="we-in-socials__img">
+                  <img src="./img/we-in-socials/tg.png" alt="TG" />
+                </div>
+                <div class="we-in-socials__body">
+                  <span class="we-in-socials__subscribers">60 подписчиков</span>
+                  <a
+                    href="https://t.me/tomvet_tom"
+                    class="we-in-socials__button button-main button-main_white"
+                    >Подписаться</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__container">
+            <h2 class="reviews__title title">Отзывы</h2>
+            <div class="reviews__top">
+              <div class="reviews__slider-wrapper">
+                <button
+                  class="slider-reviews__button slider-reviews__button_pc-prev slider-reviews__button_prev"
+                >
+                  <img src="./img/reviews/arr-left.svg" alt="Кнопка назад" />
+                </button>
+                <div class="reviews__slider swiper slider-reviews">
+                  <div class="slider-reviews__wrapper swiper-wrapper">
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/01.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Хорошее отношение персонала, операция прошла успешно,
+                          все быстро заживает, кошка чувствует себя прекрасно!
+                          Спасибо большое
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/02.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Очень хорошая клиника. Внимательные доктора. Благодарю
+                          за помощь. Отличная клиника.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/03.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Лучшая клиника, лучшие врачи! Только благодаря их
+                          профессионализму и ЧУТКОМУ ОТНОШЕНИЮ моя собака жива!
+                          Дважды возвращали к жизни! Бесконечно благодарна Марии
+                          Владимировне и вообще всем врачам и АССИСТЕНТАМ и
+                          АДМИНИСТРАТОРАМ!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/05.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Лучшие в своём деле ♥ Выражаю огромную благодарность
+                          за ваш профессионализм ♥ ибо часто обращаюсь со своим
+                          котом (а он уличный, дерётся часто), каждый раз
+                          выручаете
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/06.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Неоднократно обращались в данную клинику. Понравилось
+                          всё. Врачи вызывают доверие.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/07.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Лечила и обследовала здесь не одно животное, врачи
+                          всегда кратко и по делу все расскажут и объяснят.
+                          Ценник не завышенный. Спасибо большое ветеринарным
+                          врачам за оказанную помощь!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/08.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Отличная клиника. Щенку ставили прививки по возрасту,
+                          быстро, внимательно всё делают.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="swiper-slide__item">
+                        <div class="swiper-slide__user-box">
+                          <div class="swiper-slide__user">
+                            <img
+                              src="./img/reviews/09.png"
+                              alt="Пользователь и его имя"
+                            />
+                          </div>
+                          <div class="swiper-slide__rating">
+                            <img
+                              src="./img/reviews/stars.png"
+                              alt="Рейтинг по звездам"
+                            />
+                          </div>
+                        </div>
+                        <p class="swiper-slide__description">
+                          Прекрасные врачи, отзывчивые. Лечим собаку в этой
+                          прекрасной клинике. До обследования мой пожилой пёс
+                          плохо гулял, плохо себя чувствовал. После лечения
+                          бегает, играет. Спасибо всем врачам огромное, что
+                          восстановили собачку !!!!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="slider-reviews__button slider-reviews__button_pc-next slider-reviews__button_next"
+                >
+                  <img src="./img/reviews/arr-right.svg" alt="Кнопка вперёд" />
+                </button>
+                <button
+                  class="slider-reviews__button slider-reviews__button_mobile slider-reviews__button_prev"
+                >
+                  <img src="./img/icons/left-arr.svg" alt="Кнопка назад" />
+                </button>
+                <button
+                  class="slider-reviews__button slider-reviews__button_mobile slider-reviews__button_next"
+                >
+                  <img src="./img/icons/right-arr.svg" alt="Кнопка вперёд" />
+                </button>
+              </div>
+
+              <button
+                class="reviews__button button-main button-main_yellow"
+                data-popap-path="reviews"
+              >
+                Больше отзывов
+              </button>
+            </div>
+            <div class="reviews__bottom bottom-reviews">
+              <div class="bottom-reviews__row">
+                <div class="bottom-reviews__img-wrap">
+                  <div class="bottom-reviews__img-decor">
+                    <img src="./img/reviews/decor.svg" alt="Иконки животных" />
+                  </div>
+                  <div class="bottom-reviews__img">
+                    <img src="./img/reviews/dog.png" alt="Собака" />
+                  </div>
+                </div>
+                <div class="bottom-reviews__wrpap">
+                  <form class="form-reviews">
+                    <div class="form-reviews__text-block">
+                      <h3 class="form-reviews__title">Запишитесь на прием</h3>
+                      <p class="form-reviews__descr">
+                        Оставьте свои контакты ниже, и мы свяжемся с вами для
+                        согласования даты и времени
+                      </p>
+                    </div>
+                    <div class="form-reviews__row">
+                      <div class="form-reviews__column">
+                        <input
+                          required
+                          placeholder="Ваше имя"
+                          type="text"
+                          class="form-reviews__item form-reviews__item_input-text"
+                        />
+                        <input
+                          required
+                          placeholder="Телефон"
+                          type="tel"
+                          class="form-reviews__item form-reviews__item_input-tel"
+                        />
+                      </div>
+                      <div class="form-reviews__column">
+                        <textarea
+                          placeholder="Ваш комментарий"
+                          class="form-reviews__item form-reviews__item_textarea"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="form-reviews__consent-to-processing">
+                      <label class="form-reviews__label">
+                        <input
+                          required
+                          type="checkbox"
+                          class="form-reviews__checkbox"
+                        />
+                        <p class="form-reviews__text-argeement">
+                          Я согласен на обработку персональных данных
+                        </p>
+                      </label>
+                    </div>
+                    <div class="form-reviews__button-wrap">
+                      <button
+                        class="form-reviews__button button-main button-main_white"
+                      >
+                        Заказать звонок
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="modals">
+        <div class="modal-overlay">
+          <div class="modal modal-reviews" data-popap-target="reviews">
+            <div class="modal-reviews__item">
+              <div class="modal-reviews__btn-row">
+                <button class="modal-reviews__button-close button-popap-close">
+                  <img
+                    src="./img/reviews/close-icon.svg"
+                    alt="Крестик закрытия попапа"
+                  />
+                </button>
+              </div>
+              <div class="modal-reviews__content">
+                <h4 class="modal-reviews__title">
+                  Читайте больше отзывов на сайтах:
+                </h4>
+                <div class="modal-reviews__logos">
+                  <a
+                    href="https://tomsk.flamp.ru/firm/tomvet_veterinarnaya_klinika-70000001046791524"
+                    class="modal-reviews__logo"
+                  >
+                    <img src="./img/reviews/logos/01.jpg " alt="Flamp" />
+                  </a>
+                  <a
+                    href="https://2gis.ru/tomsk/search/%D1%82%D0%BE%D0%BC%D0%B2%D0%B5%D1%82%20%D1%82%D0%BE%D0%BC%D1%81%D0%BA/firm/70000001046791524/84.981585%2C56.451339/tab/reviews?m=84.981585%2C56.451339%2F13.15"
+                    class="modal-reviews__logo"
+                  >
+                    <img src="./img/reviews/logos/02.jpg " alt="2 ГИС" />
+                  </a>
+                  <a
+                    href="https://yandex.ru/maps/org/tomvet/94214112888/reviews/?ll=84.981713%2C56.451021&z=16"
+                    class="modal-reviews__logo"
+                  >
+                    <img src="./img/reviews/logos/03.jpg " alt="Яндекс Карты" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-reception" data-popap-target="reception">
+            <div class="modal-reception__item">
+              <div class="modal-reception__btn-row">
+                <button
+                  class="modal-reception__button-close button-popap-close"
+                >
+                  <img
+                    src="./img/reviews/close-icon.svg"
+                    alt="Крестик закрытия попапа"
+                  />
+                </button>
+              </div>
+
+              <h4 class="modal-reception__title">Запишитесь на прием</h4>
+              <p class="modal-reception__description">
+                Оставьте свои контакты ниже, и мы свяжемся с вами для
+                согласования даты и времени
+              </p>
+              <form class="modal-reception__form">
+                <input
+                  required
+                  type="text"
+                  placeholder="Ваше имя"
+                  class="modal-reception__input"
+                />
+                <input
+                  required
+                  type="tel"
+                  placeholder="Телефон"
+                  class="modal-reception__input"
+                />
+                <textarea
+                  placeholder="Ваш комментарий"
+                  class="modal-reception__textarea"
+                ></textarea>
+
+                <div class="modal-reception__consent-to-processing">
+                  <label class="modal-reception__label">
+                    <input
+                      required
+                      type="checkbox"
+                      class="modal-reception__checkbox"
+                    />
+                    <p class="modal-reception__text-argeement">
+                      Я согласен на обработку персональных данных
+                    </p>
+                  </label>
+                </div>
+                <div class="modal-reception__button-wrap">
+                  <button
+                    class="modal-reception__button button-main button-main_yellow"
+                  >
+                    Заказать звонок
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__row">
+            <div class="footer__column footer__column_1">
+              <div class="footer__column-wrap">
+                <div class="footer__logo">
+                  <img
+                    src="./img/footer/logo.png"
+                    alt="Логотип ветеренарной клиники"
+                  />
+                </div>
+                <div class="footer__contacts">
+                  <div class="footer__contact-box">
+                    <div class="footer__contact-img">
+                      <img src="./img/footer/tel.svg" alt="Иконка телефона" />
+                    </div>
+                    <a href="tel:+73822900333" class="footer__tel tel"
+                      >+7 (3822) 900-333</a
+                    >
+                  </div>
+                  <div class="footer__contact-box">
+                    <div class="footer__contact-img">
+                      <img src="./img/footer/message.svg" alt="Иконка почты" />
+                    </div>
+                    <a href="mailto:tomvet@mail.ru" class="footer__email"
+                      >tomvet@mail.ru</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__column footer__column_2">
+              <div class="footer__column-row">
+                <div class="footer__menu menu-footer">
+                  <nav class="menu-footer__body">
+                    <ul class="menu-footer__list">
+                      <li class="menu-footer__item">
+                        <a href="#hero" class="menu-footer__link">Главная</a>
+                      </li>
+                      <li class="menu-footer__item">
+                        <a href="#advantages" class="menu-footer__link"
+                          >Почему мы?</a
+                        >
+                      </li>
+                      <li class="menu-footer__item">
+                        <a href="#doctors" class="menu-footer__link"
+                          >Специалисты</a
+                        >
+                      </li>
+                      <li class="menu-footer__item">
+                        <a href="#about-clinic" class="menu-footer__link"
+                          >О клинике</a
+                        >
+                      </li>
+                      <li class="menu-footer__item">
+                        <a href="#services" class="menu-footer__link">Услуги</a>
+                      </li>
+                      <li class="menu-footer__item">
+                        <a href="#socials" class="menu-footer__link"
+                          >Контакты</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="footer__column footer__column_3">
+              <div class="footer__location-body">
+                <div class="footer__location-box">
+                  <div class="footer__location-img">
+                    <img
+                      src="./img/footer/location.svg"
+                      alt="Иконка месторасположения"
+                    />
+                  </div>
+                  <div class="footer__location-text-box">
+                    <p class="footer__descr">г. Томск, ул. Мокрушина 1Б</p>
+                    <p class="footer__descr">
+                      с 8:00 до 24:00, без перерывов и выходных
+                    </p>
+                  </div>
+                </div>
+                <div class="footer__location-box">
+                  <div class="footer__location-img">
+                    <img
+                      src="./img/footer/location.svg"
+                      alt="Иконка месторасположения"
+                    />
+                  </div>
+                  <div class="footer__location-text-box">
+                    <p class="footer__descr">
+                      г. Томск, пер. Совпартшкольный 10А
+                    </p>
+                    <p class="footer__descr">
+                      с 10:00 до 20:00, без перерывов и выходных
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://yandex.ru/maps/org/tomvet/94214112888/"
+                class="footer__map-link"
+                >Смотреть на карте</a
+              >
+              <div class="footer__socials">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=79609715141&text&type=phone_number&app_absent=0"
+                  class="footer__social"
+                >
+                  <img src="./img/icons/whats-up.svg" alt="Вотсап" />
+                </a>
+                <a href="https://t.me/tomvet_tom" class="footer__social">
+                  <img src="./img/footer/tg.svg" alt="Телеграм" />
+                </a>
+                <a href="https://vk.com/tomvet" class="footer__social">
+                  <img src="./img/icons/vk.svg" alt="ВКонтакте" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.button-main {
+	padding: 14px 42px;
+	font-size: 24px;
+	font-weight: 500;
+	border: 2px solid $black-color;
+	border-radius: 100px;
+	color: $black-color;
+	transition: all 0.3s ease 0s;
+
+	@media (any-hover: hover) {
+		&:hover {
+			background-color: $black-color;
+			color: $white-color;
+		}
+	}
+
+	&_yellow {
+		background-color: $yellow-color;
+		border: none;
+
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: $yellow-hover-color;
+				color: $black-color;
+			}
+		}
+	}
+
+	&_white {
+		background-color: $white-color;
+	}
+
+	@media (max-width: 550px) {
+		font-size: 18px;
+	}
+}
